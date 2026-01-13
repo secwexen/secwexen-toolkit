@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 BACKUP_DIR="/var/backups/secwexen"
 SOURCE_DIR="/opt/secwexen"
 TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S")
