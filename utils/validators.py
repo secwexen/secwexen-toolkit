@@ -1,7 +1,3 @@
-"""
-Validation utilities for domains, IP addresses and email formats.
-"""
-
 import re
 
 
