@@ -1,7 +1,3 @@
-"""
-File operation utilities for reading, writing and checking files.
-"""
-
 import os
 
 
