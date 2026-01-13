@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secwexen"
+version = "0.1.0"
+description = "A modular offensive, defensive, OSINT and automation security toolkit."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "secwexen" }
+]
+
+keywords = [
+    "security",
+    "pentest",
+    "offensive-security",
+    "defensive-security",
+    "osint",
+    "automation",
+    "toolkit"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: Software Development :: Libraries"
+]
+
+dependencies = [
+    "requests",
+    "rich",
+    "colorama",
+    "pytest",
+]
+
+[project.urls]
+Homepage = "https://github.com/secwexen/secwexen-toolkit/"
+Documentation = "https://github.com/secwexen/secwexen-toolkit/docs"
+Issues = "https://github.com/secwexen/secwexen-toolkit/issues"
+
+[tool.setuptools.packages.find]
+where = ["tools", "utils"]
