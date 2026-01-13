@@ -1,8 +1,3 @@
-"""
-Core functionality tests for the Secwexen framework.
-Ensures that the project structure, modules and core components load correctly.
-"""
-
 import pytest
 
 
