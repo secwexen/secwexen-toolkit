@@ -1,10 +1,3 @@
-"""
-username_lookup.py
-OSINT module to check if a username exists across multiple platforms.
-
-Author: secwexen
-"""
-
 import requests
 from typing import Dict, List
 
