@@ -43,7 +43,7 @@ Each tool is designed for real-world workflows, focusing on efficiency, clarity,
 
 ```
 tools/
-├── offensive/
+├── offensive/ (Soon)
 │   ├── python/
 │   ├── rust/
 │   ├── bash/
