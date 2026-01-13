@@ -1,8 +1,3 @@
-"""
-Defensive Demo Script
-Demonstrates how to use defensive tools in the Secwexen framework.
-"""
-
 from utils import log_info
 from tools.defensive.python.log_monitor import monitor_logs
 from tools.defensive.python.firewall_watcher import watch_firewall
