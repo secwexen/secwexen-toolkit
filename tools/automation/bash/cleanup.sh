@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# ==========================================
-#  Secwexen - System Cleanup Script
-# ==========================================
-
 echo "[+] Starting system cleanup..."
 
 # Remove Python cache files
