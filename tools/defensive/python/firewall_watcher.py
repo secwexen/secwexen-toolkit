@@ -1,14 +1,3 @@
-"""
-firewall_watcher.py
-Monitors firewall events and logs suspicious activity.
-
-Supports:
-- Windows (via 'netsh advfirewall' and 'Get-NetFirewallRule')
-- Linux (via 'iptables' or 'ufw' logs)
-
-Author: secwexen
-"""
-
 import os
 import platform
 import subprocess
