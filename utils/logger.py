@@ -1,6 +1,5 @@
 from datetime import datetime
 
-
 def _timestamp():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
