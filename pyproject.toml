@@ -45,4 +45,4 @@ Documentation = "https://github.com/secwexen/secwexen-toolkit/tree/main/docs"
 Issues = "https://github.com/secwexen/secwexen-toolkit/issues"
 
 [tool.setuptools.packages.find]
-where = ["tools", "utils"]
+where = ["."]
