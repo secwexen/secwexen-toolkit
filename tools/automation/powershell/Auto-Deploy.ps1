@@ -1,3 +1,17 @@
+<#
+.SYNOPSIS
+    Automated deployment script for Secwexen Framework.
+
+.DESCRIPTION
+    This PowerShell script clones or updates the Secwexen repository,
+    sets up a Python virtual environment, installs dependencies,
+    and prepares the framework for execution.
+
+.NOTES
+    Author: secwexen
+    Script: Auto-Deploy.ps1
+#>
+
 Write-Host "[+] Starting Secwexen Auto Deployment..." -ForegroundColor Cyan
 
 # -----------------------------
