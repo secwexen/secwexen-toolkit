@@ -8,8 +8,6 @@
 ![License](https://img.shields.io/github/license/secwexen/secwexen-toolkit)
 ![Repo Size](https://img.shields.io/github/repo-size/secwexen/secwexen-toolkit)
 ![Last Commit](https://img.shields.io/github/last-commit/secwexen/secwexen-toolkit)
-![Issues](https://img.shields.io/github/issues/secwexen/secwexen-toolkit)
-![Pull Requests](https://img.shields.io/github/issues-pr/secwexen/secwexen-toolkit)
 ![Python Versions](https://img.shields.io/pypi/pyversions/secwexen-toolkit)
 ![Coverage](https://img.shields.io/codecov/c/github/secwexen/secwexen-toolkit)
 
