@@ -16,7 +16,7 @@ This document explains how to install and run the Secwexen Toolkit on your syste
 ## 1. Clone the Repository
 
 ```
-git clone https://github.com/your-username/secwexen-toolkit.git
+git clone https://github.com/secwexen/secwexen-toolkit.git
 ```
 
 ---
