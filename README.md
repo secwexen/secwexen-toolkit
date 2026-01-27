@@ -125,7 +125,7 @@ secwexen-arsenal
 ```bash
 python3 -m venv venv
 source venv/bin/activate        # Linux / macOS
-venv\Scripts\activate           # Windows
+venv\Scripts\Activate.ps1           # Windows
 pip install -r requirements.txt
 ```
 
