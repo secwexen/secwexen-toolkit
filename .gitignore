@@ -1,26 +1,83 @@
-# Rust
-/target/
-/Cargo.lock
-
-# Python
+# === Python ===
+# Byte‑compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
 *.pyd
-.venv/
-venv/
-env/
+*.pyo
 
-# Logs
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# Pytest / coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Python build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# pip cache
+pip‑cache/
+*.whl
+
+# VS Code Python settings
+.vscode/
+
+# === Rust ===
+# Rust build artifacts
+target/
+**/*.rlib
+**/*.rmeta
+
+# Cargo lock in workspace root
+Cargo.lock
+
+# Rust logs
 *.log
 
-# OS files
+# === PowerShell ===
+# PowerShell logs and temporary
+*.ps1xml
+*.psm1
+*.psd1
+*.pssc
+*.tmp
+*.log
+
+# === Shell / Bash ===
+# Swap and backup files
+*~
+*.swp
+*.bak
+
+# Shell script logs
+*.log
+
+# === Makefile ===
+# Make build artifacts
+*.o
+*.d
+*.a
+*.so
+*.out
+
+# === General / OS / Editor ===
+# macOS
 .DS_Store
+
+# Windows thumbnail cache
 Thumbs.db
 
-# IDE
-.vscode/
+# IDE / Editor
 .idea/
+.vscode/
 
-# Temporary
-tmp/
+# Logs & temp
+*.log
+*.tmp
+*.temp
