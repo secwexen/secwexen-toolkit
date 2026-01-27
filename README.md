@@ -47,7 +47,6 @@ secwexen-arsenal
 ├── docs/                        # Project documentation
 ├── examples/                    # Example and demo scripts
 ├── tests/                       # Test suite
-│
 ├── tools/                       # Core security toolkit
 │   │
 │   ├── automation/              # Automation and DevOps scripts
