@@ -1,66 +1,141 @@
-# Usage Guide
+# Running the Tools
 
-This guide explains how to use the tools included in the Secwexen Arsenal.
+## Setup 
 
----
+```bash
+python3 -m venv venv
+source venv/bin/activate        # Linux / macOS
+venv\Scripts\Activate.ps1       # Windows
 
-## Running Offensive Tools
-
-### Port Scanner
-```
-python tools/offensive/port_scanner.py
-```
-
-### Banner Grabber
-```
-python tools/offensive/banner_grabber.py
+pip install -r requirements.txt
 ```
 
 ---
 
-## Running Defensive Tools
+### OSINT Tools
 
-### Log Monitor
-```
-python tools/defensive/log_monitor.py
-```
-
-### Firewall Rule Checker
-```
-python tools/defensive/firewall_rule_checker.py
+```bash
+python3 tools/osint/python/email_harvester.py
+python3 tools/osint/python/subdomain_finder.py
+python3 tools/osint/python/username_lookup.py
 ```
 
 ---
 
-## Running OSINT Tools
+### Defensive Tools
 
-### Username Checker
-```
-python tools/osint/username_checker.py example_user
-```
-
-### IP Info Lookup
-```
-python tools/osint/ip_info_lookup.py 8.8.8.8
+```bash
+python3 tools/defensive/python/firewall_watcher.py
+python3 tools/defensive/python/log_monitor.py
+python3 tools/defensive/python/malware_scanner.py
 ```
 
 ---
 
-## Running Automation Scripts
+### Example Demos
 
-### Cleanup Temporary Files
-```
-bash tools/automation/cleanup_temp.sh
+```bash
+python3 examples/osint_demo.py
+python3 examples/defensive_demo.py
+python3 examples/offensive_demo.py
 ```
 
-### System Information (Windows)
+---
+
+## Bash Scripts (Linux / macOS)
+
+Make scripts executable:
+
+```bash
+chmod +x tools/automation/bash/*.sh
 ```
-powershell tools/automation/system_info.ps1
+
+Run:
+
+```bash
+./tools/automation/bash/auto_backup.sh
+./tools/automation/bash/cleanup.sh
+./tools/automation/bash/deploy_script.sh
+```
+
+---
+
+## PowerShell Scripts (Windows)
+
+Run PowerShell **as Administrator**.
+
+Allow script execution:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
+Run scripts:
+
+```powershell
+.\tools\automation\powershell\Auto-Deploy.ps1
+.\tools\automation\powershell\Backup-Files.ps1
+.\tools\automation\powershell\Sync-Drives.ps1
+
+.\tools\defensive\powershell\Check-DefenderStatus.ps1
+.\tools\defensive\powershell\Get-EventLogs.ps1
+.\tools\defensive\powershell\Monitor-Processes.ps1
+```
+
+---
+
+## Rust Offensive Tool (Fast Port Scanner)
+
+### Build
+
+```bash
+cd tools/offensive/rust/fast_port_scanner
+cargo build --release
+```
+
+### Run
+
+```bash
+cargo run --release
+```
+
+Or run binary directly:
+
+```bash
+./target/release/fast_port_scanner
+```
+
+---
+
+## Running Tests
+
+```bash
+pytest tests/
+```
+
+Or individually:
+
+```bash
+pytest tests/test_core.py
+pytest tests/test_tools.py
+pytest tests/test_utils.py
+```
+
+---
+
+## Makefile  
+
+```bash
+make help
+make install
+make test
+make run
 ```
 
 ---
 
 ## Notes
 
-- Some tools are placeholders and will be expanded.
-- All tools are safe examples intended for learning and portfolio use.
+* Offensive tools must only be used in environments where you have explicit authorization.
+* Some scripts may require **root / admin privileges**
+* Defensive tools may need access to system logs or firewall APIs
