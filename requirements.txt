@@ -26,4 +26,3 @@ shodan
 
 # Concurrency & Performance
 tqdm
-asyncio
