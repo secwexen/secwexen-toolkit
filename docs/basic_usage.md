@@ -5,7 +5,7 @@
 ```bash
 python3 -m venv venv
 source venv/bin/activate        # Linux / macOS
-venv\Scripts\Activate.ps1       # Windows
+venv\Scripts\activate           # Windows
 
 pip install -r requirements.txt
 ```
@@ -15,9 +15,9 @@ pip install -r requirements.txt
 ### OSINT Tools
 
 ```bash
-python3 tools/osint/python/email_harvester.py
-python3 tools/osint/python/subdomain_finder.py
-python3 tools/osint/python/username_lookup.py
+python tools/osint/python/email_harvester.py
+python tools/osint/python/subdomain_finder.py
+python tools/osint/python/username_lookup.py
 ```
 
 ---
@@ -25,9 +25,9 @@ python3 tools/osint/python/username_lookup.py
 ### Defensive Tools
 
 ```bash
-python3 tools/defensive/python/firewall_watcher.py
-python3 tools/defensive/python/log_monitor.py
-python3 tools/defensive/python/malware_scanner.py
+python tools/defensive/python/firewall_watcher.py
+python tools/defensive/python/log_monitor.py
+python tools/defensive/python/malware_scanner.py
 ```
 
 ---
@@ -35,9 +35,9 @@ python3 tools/defensive/python/malware_scanner.py
 ### Example Demos
 
 ```bash
-python3 examples/osint_demo.py
-python3 examples/defensive_demo.py
-python3 examples/offensive_demo.py
+python examples/osint_demo.py
+python examples/defensive_demo.py
+python examples/offensive_demo.py
 ```
 
 ---
