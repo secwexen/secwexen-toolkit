@@ -15,9 +15,9 @@ pip install -r requirements.txt
 ### OSINT Tools
 
 ```bash
-python tools/osint/python/email_harvester.py
-python tools/osint/python/subdomain_finder.py
-python tools/osint/python/username_lookup.py
+python -m tools/osint/python/email_harvester.py example.com
+python -m tools/osint/python/subdomain_finder.py example.com
+python -m tools/osint/python/username_lookup.py <username_or_target>
 ```
 
 ---
@@ -25,9 +25,9 @@ python tools/osint/python/username_lookup.py
 ### Defensive Tools
 
 ```bash
-python tools/defensive/python/firewall_watcher.py
-python tools/defensive/python/log_monitor.py
-python tools/defensive/python/malware_scanner.py
+python -m tools.defensive.python.firewall_watcher
+python -m tools.defensive.python.log_monitor
+python -m tools.defensive.python.malware_scanner
 ```
 
 ---
