@@ -140,7 +140,7 @@ See the [LICENSE](LICENSE) file for full details.
 
 ## Development Status
 
-secwexen-arsenal is under active development.  
+Secwexen Arsenal is under active development.  
 Some files are placeholders and will be filled soon.  
 
 ---
