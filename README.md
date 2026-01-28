@@ -141,11 +141,11 @@ See the [LICENSE](LICENSE) file for full details.
 ## Development Status
 
 Secwexen Arsenal is under active development.  
-Some files are placeholders and will be filled soon.  
+Some files are placeholders and will be filled soon. 
 
 ---
 
 ## Author  
 
-**Secwexen** – Cybersecurity & Ethical Hacker Expert   
+**Secwexen** – Project Author & Maintainer   
 **GitHub:** [github.com/secwexen](https://github.com/secwexen)  
