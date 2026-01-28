@@ -114,7 +114,7 @@ pip install -r requirements.txt
 
 ## Documentation
 
-- Detailed usage guide: [USAGE.md](docs/basic_usage.md)
+- Detailed usage guide: [basic_usage.md](docs/basic_usage.md)
 
 ---
 
