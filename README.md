@@ -7,8 +7,6 @@
 ![Release](https://img.shields.io/github/v/release/secwexen/secwexen-arsenal)
 ![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal)
 ![Repo Size](https://img.shields.io/github/repo-size/secwexen/secwexen-arsenal)
-![Last Commit](https://img.shields.io/github/last-commit/secwexen/secwexen-arsenal)
-![Python Versions](https://img.shields.io/pypi/pyversions/secwexen-arsenal)
 ![Coverage](https://img.shields.io/codecov/c/github/secwexen/secwexen-arsenal)
 
 **A curated collection of offensive, defensive, and automation tools developed for cybersecurity research, penetration testing, and threat analysis.**
