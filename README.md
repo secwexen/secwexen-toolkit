@@ -4,7 +4,6 @@
 ![Lint](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/lint.yml?label=Lint)
 ![Python Lint](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/pylint.yml?label=PyLint)
 ![CodeQL](https://img.shields.io/github/actions/workflow/status/secwexen/secwexen-arsenal/codeql.yml?label=CodeQL)
-![Release](https://img.shields.io/github/v/release/secwexen/secwexen-arsenal)
 ![License](https://img.shields.io/github/license/secwexen/secwexen-arsenal)
 ![Repo Size](https://img.shields.io/github/repo-size/secwexen/secwexen-arsenal)
 ![Coverage](https://img.shields.io/codecov/c/github/secwexen/secwexen-arsenal)
